@@ -261,12 +261,14 @@
     padding: 10px;
 
     .gardens_container {
-        overflow-y: auto;
+        overflow-y: auto !important;
         overflow-x: hidden;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        overflow-y: auto; 
+        height: 100%;
         width: 98%;
     }
 
@@ -394,6 +396,8 @@
 .red{
     background: red;
 }
+
+
 
 span {
     display: block;

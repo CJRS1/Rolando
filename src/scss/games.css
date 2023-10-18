@@ -197,12 +197,14 @@
   padding: 10px;
 }
 .gardens_items_container .gardens_container {
-  overflow-y: auto;
+  overflow-y: auto !important;
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow-y: auto;
+  height: 100%;
   width: 98%;
 }
 .gardens_items_container .items_container {

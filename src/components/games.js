@@ -1,8 +1,6 @@
 import React from 'react';
 import '../scss/games.css';
 
-
-
 const Games = () => {
     const btn_1 = require('../images/header_menu.png');
     const icon_menu = require('../images/icon_menu.png');
@@ -19,38 +17,37 @@ const Games = () => {
     const garden04 = require('../images/garden04.jpg');
     const cardbutton = require('../images/card_button.png');
 
-    {/* <img src={imagePath} alt="Ejemplo" /> */ }
     return (
         <div className="game_container">
             <header className="header_container">
                 <nav className="navbar_container">
                     <div className="principal_buttons_container">
-                        <a href="">
+                        <a>
                             <img className="button_header_p2" src={icon_menu} alt="Back" />
                             <img className="button_header_p1" src={btn_1} alt="Continents" />
                             <h2 className='h2_continents'>CONTINENTS</h2>
                         </a>
-                        <a href="">
+                        <a>
                             <img className="button_header_p2" src={icon_menu2} alt="Poison" />
                             <img className="button_header_p1" src={btn_1} alt="Inventory" />
                             <h2 className='h2_inventory'>INVENTORY</h2>
                         </a>
-                        <a href="">
+                        <a>
                             <img className="button_header_p2" src={icon_menu2} alt="Poison" />
                             <img className="button_header_p1" src={btn_1} alt="Market" />
                             <h2 className='h2_market'>MARKET</h2>
                         </a>
-                        <a href="">
+                        <a>
                             <img className="button_header_p2" src={icon_menu2} alt="Poison" />
                             <img className="button_header_p1" src={btn_1} alt="Exchange" />
                             <h2 className='h2_exchange'>EXCHANGE</h2>
                         </a>
                     </div>
                     <div className="secondary_buttons_container">
-                        <a href="">
+                        <a>
                             <img className="button_header_p3" src={icon_menu} alt="Back" />
                         </a>
-                        <a href="">
+                        <a>
                             <img className="button_header_p3" src={icon_menu2} alt="Poison" />
                         </a>
                     </div>
@@ -74,7 +71,7 @@ const Games = () => {
                 </div>
                 <div className="gardens_items_container">
                     <div className="gardens_container">
-                        <div className="items_container">
+                        <div className="items_container xd">
                             <div className="gardens_card">
                                 <img className="img_garden" src={garden01} alt="" />
                                 <h2>GARDEN 01</h2>
