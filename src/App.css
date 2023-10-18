@@ -1,5 +1,17 @@
 .App {
   text-align: center;
+  width: 100wh;
+  height: 100vh;
+}
+
+@font-face {
+  font-family: 'Hansip';
+  src: local('Hansip'), url('./fonts/Hansip.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SCRUBLAND';
+  src: local('SCRUBLAND'), url('./fonts/SCRUBLAND.ttf') format('truetype');
 }
 
 .App-logo {
