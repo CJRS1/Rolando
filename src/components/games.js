@@ -73,78 +73,100 @@ const Games = () => {
                     </div>
                 </div>
                 <div className="gardens_items_container">
-                    <div className="items_container">
-                        <div className="gardens_card">
-                            <img className="img_garden" src={garden01} alt="" />
-                            <h2>GARDEN 01</h2>
-                            <span></span>
-                            <img className='img_card_button' src={cardbutton} alt="" />
-                            <h3>ENTER</h3>
+                    <div className="gardens_container">
+                        <div className="items_container">
+                            <div className="gardens_card">
+                                <img className="img_garden" src={garden01} alt="" />
+                                <h2>GARDEN 01</h2>
+                                <div className="enter">
+                                    <span className='red'></span>
+                                    <img className='img_card_button' src={cardbutton} alt="" />
+                                    <h3>ENTER</h3>
+                                </div>
+                            </div>
+                            <div className="gardens_card">
+                                <img className="img_garden" src={garden02} alt="" />
+                                <h2>GARDEN 02</h2>
+                                <div className="enter">
+                                    <span className='blue'></span>
+                                    <img className='img_card_button' src={cardbutton} alt="" />
+                                    <h3>ENTER</h3>
+                                </div>
+                            </div>
+                            <div className="gardens_card">
+                                <img className="img_garden" src={garden04} alt="" />
+                                <h2>GARDEN 03</h2>
+                                <div className="enter">
+                                    <span className='green'></span>
+                                    <img className='img_card_button' src={cardbutton} alt="" />
+                                    <h3>ENTER</h3>
+                                </div>
+                            </div>
+                            <div className="gardens_card">
+                                <img className="img_garden" src={garden05} alt="" />
+                                <h2>GARDEN 04</h2>
+                                <div className="enter">
+                                    <span className='red'></span>
+                                    <img className='img_card_button' src={cardbutton} alt="" />
+                                    <h3>ENTER</h3>
+                                </div>
+                            </div>
+                            <div className="gardens_card">
+                                <img className="img_garden" src={garden01} alt="" />
+                                <h2>GARDEN 05</h2>
+                                <div className="enter">
+                                    <span className='yellow'></span>
+                                    <img className='img_card_button' src={cardbutton} alt="" />
+                                    <h3>ENTER</h3>
+                                </div>
+                            </div>
                         </div>
-                        <div className="gardens_card">
-                            <img className="img_garden" src={garden01} alt="" />
-                            <h2>GARDEN 02</h2>
-                            <span></span>
-                            <img className='img_card_button' src={cardbutton} alt="" />
-                            <h3>ENTER</h3>
-                        </div>
-                        <div className="gardens_card">
-                            <img className="img_garden" src={garden01} alt="" />
-                            <h2>GARDEN 03</h2>
-                            <span></span>
-                            <img className='img_card_button' src={cardbutton} alt="" />
-                            <h3>ENTER</h3>
-                        </div>
-                        <div className="gardens_card">
-                            <img className="img_garden" src={garden01} alt="" />
-                            <h2>GARDEN 04</h2>
-                            <span></span>
-                            <img className='img_card_button' src={cardbutton} alt="" />
-                            <h3>ENTER</h3>
-                        </div>
-                        <div className="gardens_card">
-                            <img className="img_garden" src={garden01} alt="" />
-                            <h2>GARDEN 05</h2>
-                            <span></span>
-                            <img className='img_card_button' src={cardbutton} alt="" />
-                            <h3>ENTER</h3>
-                        </div>
-                    </div>
-                    <div className="items_container">
-                        <div className="gardens_card">
-                            <img className="img_garden" src={garden01} alt="" />
-                            <h2>GARDEN 06</h2>
-                            <span></span>
-                            <img className='img_card_button' src={cardbutton} alt="" />
-                            <h3>ENTER</h3>
-                        </div>
-                        <div className="gardens_card">
-                            <img className="img_garden" src={garden01} alt="" />
-                            <h2>GARDEN 07</h2>
-                            <span></span>
-                            <img className='img_card_button' src={cardbutton} alt="" />
-                            <h3>ENTER</h3>
-                        </div>
-                        <div className="gardens_card">
-                            <img className="img_garden" src={garden01} alt="" />
-                            <h2>GARDEN 08</h2>
-                            <span></span>
-                            <img className='img_card_button' src={cardbutton} alt="" />
-                            <h3>ENTER</h3>
-                        </div>
-                        <div className="gardens_card">
-                            <img className="img_garden" src={garden01} alt="" />
-                            <h2>GARDEN 09</h2>
-                            <span></span>
-                            <img className='img_card_button' src={cardbutton} alt="" />
-                            <h3>ENTER</h3>
-                        </div>
-                        <div className="gardens_card">
-                            <img className="img_garden" src={garden01} alt="" />
-                            <h2>GARDEN 10</h2>
-                            <span></span>
-                            <img className='img_card_button' src={cardbutton} alt="" />
-                            <h3>ENTER</h3>
+                        <div className="items_container">
+                            <div className="gardens_card">
+                                <img className="img_garden" src={garden02} alt="" />
+                                <h2>GARDEN 06</h2>
+                                <div className="enter">
+                                    <span className='red'></span>
+                                    <img className='img_card_button' src={cardbutton} alt="" />
+                                    <h3>ENTER</h3>
+                                </div>
+                            </div>
+                            <div className="gardens_card">
+                                <img className="img_garden" src={garden04} alt="" />
+                                <h2>GARDEN 07</h2>
+                                <div className="enter">
+                                    <span className='blue'></span>
+                                    <img className='img_card_button' src={cardbutton} alt="" />
+                                    <h3>ENTER</h3>
+                                </div>
+                            </div>
+                            <div className="gardens_card">
+                                <img className="img_garden" src={garden05} alt="" />
+                                <h2>GARDEN 08</h2>
+                                <div className="enter">
+                                    <span className='green'></span>
+                                    <img className='img_card_button' src={cardbutton} alt="" />
+                                    <h3>ENTER</h3>
+                                </div>
+                            </div>
+                            <div className="gardens_card">
+                                <img className="img_garden" src={garden01} alt="" />
+                                <h2>GARDEN 09</h2>
+                                <div className="enter">
+                                    <span className='red'></span>
+                                    <img className='img_card_button' src={cardbutton} alt="" />
+                                    <h3>ENTER</h3>
+                                </div>
+                            </div>
+                            <div className="gardens_card">
+                                <img className="img_garden" src={garden04} alt="" />
+                                <h2>GARDEN 10</h2>
+                                <div className="enter">
+                                    <span className='yellow'></span>
+                                    <img className='img_card_button' src={cardbutton} alt="" />
+                                    <h3>ENTER</h3>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
