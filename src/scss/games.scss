@@ -261,14 +261,15 @@
     padding: 10px;
 
     .gardens_container {
-        overflow-y: auto !important;
-        overflow-x: hidden;
+        display: inline-block !important;
+        line-height: initial;
+        overflow: auto !important;
+        // overflow-x: hidden;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        overflow-y: auto; 
-        height: 100%;
+        height: 100% !important;
         width: 98%;
     }
 
@@ -278,7 +279,8 @@
         align-items: center;
         margin-top: 10px;
         width: 100%;
-        height: 100%;
+        height: 300px;
+        
         // padding-right: 10%;
 
         .gardens_card {

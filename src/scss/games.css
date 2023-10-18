@@ -197,14 +197,14 @@
   padding: 10px;
 }
 .gardens_items_container .gardens_container {
-  overflow-y: auto !important;
-  overflow-x: hidden;
+  display: inline-block !important;
+  line-height: initial;
+  overflow: auto !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow-y: auto;
-  height: 100%;
+  height: 100% !important;
   width: 98%;
 }
 .gardens_items_container .items_container {
@@ -213,7 +213,7 @@
   align-items: center;
   margin-top: 10px;
   width: 100%;
-  height: 100%;
+  height: 300px;
 }
 .gardens_items_container .items_container .gardens_card {
   width: 17%;

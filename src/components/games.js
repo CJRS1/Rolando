@@ -1,5 +1,6 @@
 import React from 'react';
 import '../scss/games.css';
+import { Link } from 'react-router-dom';
 
 const Games = () => {
     const btn_1 = require('../images/header_menu.png');
@@ -22,34 +23,34 @@ const Games = () => {
             <header className="header_container">
                 <nav className="navbar_container">
                     <div className="principal_buttons_container">
-                        <a>
+                        <Link>
                             <img className="button_header_p2" src={icon_menu} alt="Back" />
                             <img className="button_header_p1" src={btn_1} alt="Continents" />
                             <h2 className='h2_continents'>CONTINENTS</h2>
-                        </a>
-                        <a>
+                        </Link>
+                        <Link>
                             <img className="button_header_p2" src={icon_menu2} alt="Poison" />
                             <img className="button_header_p1" src={btn_1} alt="Inventory" />
                             <h2 className='h2_inventory'>INVENTORY</h2>
-                        </a>
-                        <a>
+                        </Link>
+                        <Link>
                             <img className="button_header_p2" src={icon_menu2} alt="Poison" />
                             <img className="button_header_p1" src={btn_1} alt="Market" />
                             <h2 className='h2_market'>MARKET</h2>
-                        </a>
-                        <a>
+                        </Link>
+                        <Link>
                             <img className="button_header_p2" src={icon_menu2} alt="Poison" />
                             <img className="button_header_p1" src={btn_1} alt="Exchange" />
                             <h2 className='h2_exchange'>EXCHANGE</h2>
-                        </a>
+                        </Link>
                     </div>
                     <div className="secondary_buttons_container">
-                        <a>
+                        <Link>
                             <img className="button_header_p3" src={icon_menu} alt="Back" />
-                        </a>
-                        <a>
+                        </Link>
+                        <Link>
                             <img className="button_header_p3" src={icon_menu2} alt="Poison" />
-                        </a>
+                        </Link>
                     </div>
                 </nav>
             </header>
